@@ -1,0 +1,40 @@
+body {
+	font:16px 'Open Sans';
+	color:#fff;
+	background:#004162;
+}
+canvas {
+	display: block;
+	margin:auto;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background: #E4F7FF;
+	box-shadow: 0 0 25px #A4DCFF;
+	z-index: 8000;
+}
+
+#restable {
+	display: none;
+	width: 400px;
+	height: auto;
+	margin: 100px auto;
+	padding: 15px 10px;
+	position: relative;
+	color: #1E5089;
+	z-index: 9998;
+	background: #fff;
+	box-shadow: 0 0 25px #A4DCFF;
+	border: 1px solid #3175FF;
+}
+#results {
+	display: block;
+	position: absolute;
+	top: 10px;
+	left: 100px;
+	color:#fff;
+	text-shadow:0 1px 0 #000;
+	z-index: 9999;
+}
